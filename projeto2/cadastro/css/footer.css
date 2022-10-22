@@ -1,0 +1,50 @@
+/* FOOTER */
+
+
+footer{
+    background-color: #8C7264;
+    color: #000;
+ 
+}
+.container-rodape{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 3em;
+}
+  
+.logo{
+    font-size: 18px;
+    text-decoration: underline;
+}
+
+.escrita{
+    font-size: 18px;
+    text-decoration: underline;
+}
+.contatos, .social-media{
+    font-size: 18px;
+    text-decoration: underline;
+}
+
+.icons-ctt{
+    display: flex;
+    flex-direction: row;
+    padding: 0.24em;
+}
+.icons-c{
+    padding: 0.24em;
+    
+}
+.endereco{
+    font-size: 14px;
+}
+
+.help{
+    padding-top: 0.24em;
+    padding-bottom: 0.24em;
+}
+
+.sobre{
+    padding-top: 0.24em;
+    padding-bottom: 0.24em;
+}

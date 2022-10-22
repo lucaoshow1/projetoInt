@@ -1,0 +1,20 @@
+ - Cadastro:
+
+- Conexão:
+    - Conexão realizada via PhpMyAdmin junto ao XAMPP.
+
+2 - Funcionalidades para verificação de cadastro:
+    - Verificações do tipo: Quantidade de letras no nome com a verificação "strlen" permitindo que só seja possível criar nomes a partir do numero mínimo de letras (5), abaixo desse valor não é permitido;
+    - Verificação de preenchimento, evitando assim, o uso da propriedade "Required" dentro dos inputs do formulario;
+    - Verificação de senhas durante o cadastro;
+
+3 - Funcionalidades de Login:
+    - Verificação de existência de cadastro em nosso banco de dados, o usuário só conseguirá logar caso tenha um cadastro já feito no sistema;
+    - Utilização do comando $_SESSION, possibilitando que o usuário permaneça logado enquanto navega nas pagina;
+    - Função de Logout disponível para que o usuário possa deslogar do sistema;
+   
+4 - Detalhes do Banco de dados.
+    - Banco de dados simples criado com uma tabela 
+    - Dentro dessa possui 8 estruturas de preenchimento (Id, nome, sobrenome, email, telefone, senha, data de nascimento);
+
+    
